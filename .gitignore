@@ -1,0 +1,15 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Cargo lockfile is committed for binaries; uncomment to ignore for libraries.
+# Cargo.lock
+
+# Editor / OS
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local feed output produced by examples
+/out/
+*.generated.xml

@@ -1,0 +1,30 @@
+{
+  "title": "Cognis Threat Monitoring",
+  "link": "https://example.com/monitoring",
+  "description": "Defensive monitoring alerts and advisories.",
+  "language": "en-us",
+  "items": [
+    {
+      "title": "Advisory: anomalous outbound DNS volume on edge segment",
+      "link": "https://example.com/advisories/2026-0612-dns",
+      "guid": "advisory-2026-0612-dns",
+      "description": "Sustained spike in NXDOMAIN responses; review resolver logs.",
+      "pubDate": "2026-06-12T08:15:00Z",
+      "author": "soc@example.com"
+    },
+    {
+      "title": "Advisory: stale TLS certificate on monitoring ingress",
+      "link": "https://example.com/advisories/2026-0610-tls",
+      "guid": "advisory-2026-0610-tls",
+      "description": "Ingress certificate expires in 7 days; schedule rotation.",
+      "pubDate": "Wed, 10 Jun 2026 13:45:00 GMT"
+    },
+    {
+      "title": "Advisory: feed validation added to CI gate",
+      "link": "https://example.com/advisories/2026-0609-ci",
+      "guid": "advisory-2026-0609-ci",
+      "description": "feedforge validate now blocks merges on malformed feeds.",
+      "pubDate": "2026-06-09T17:00:00+02:00"
+    }
+  ]
+}
