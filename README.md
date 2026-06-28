@@ -10,6 +10,33 @@ containers and OSINT/monitoring pipelines.
 
 Defensive / analytical use only.
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "feeds": [
+    {
+      "id": "1234567890",
+      "title": "Example Feed 1",
+      "url": "https://example.com/feed1",
+      "updated": "2022-01-01T12:00:00Z"
+    },
+    {
+      "id": "2345678901",
+      "title": "Example Feed 2",
+      "url": "https://example.com/feed2",
+      "updated": "2022-02-01T14:30:00Z"
+    }
+  ]
+}
+```
+
+<!-- cognis:example:end -->
+
 ## Install
 
 ```sh
